@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction:row;
+  width: auto;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+
+
+
+.tag-blue {
+  background: #093848;
+  color: #fff;
+}
+
+.tag-green {
+  background: #043e0d;
+  color: #fff;
+}
+
+.tag-red {
+  background: #50052c;
+  color: #ffffff;
+}
+
+.card-body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+
